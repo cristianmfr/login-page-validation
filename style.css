@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #0D030A;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    width: 70%;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+form h3{
+    text-align: center;
+    color: #0D030A;
+    margin: 10px;
+}
+
+form h5{
+    text-align: left;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #0D030A;
+    padding-left: 20px;
+    margin: 10px 0;
+    border-radius: 30px;
+}
+
+form input[type=submit]{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    color: #72FF75;
+    border: 2px solid #72FF75;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+form input[type=submit]:hover{
+        background-color: #72FF75;
+        color: white;
+        cursor: pointer;
+}
+
+form a{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.or {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(124, 124, 124);
+}
+
+.facebook-icon, .linkedin-icon, .git-icon {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
